@@ -8,3 +8,4 @@
 ##### Commit Review
 * lint and paths added
 * Jest Updated
+* factories added
