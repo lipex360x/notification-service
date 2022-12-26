@@ -9,7 +9,7 @@
     "target": "es2017",
     "sourceMap": true,
     "outDir": "./dist",
-    "baseUrl": "./",
+    
     "incremental": true,
     "skipLibCheck": true,
     "noImplicitAny": false,
@@ -18,6 +18,11 @@
     "noFallthroughCasesInSwitch": false,
     "strict": true,
     "strictNullChecks": true,
-    "strictPropertyInitialization": false
+    "strictPropertyInitialization": false,
+
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   }
 }
