@@ -11,7 +11,6 @@ describe('Read Notification', () => {
     const readNotification = new ReadNotification(notificationsRepository);
 
     const notification = makeNotification();
-
     await notificationsRepository.create(notification);
 
     // act
