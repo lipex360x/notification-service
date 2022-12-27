@@ -17,8 +17,8 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
 
-    "resolveJsonModule": true,
     "strict": true,
+    "resolveJsonModule": true,
     "strictNullChecks": true,
     "strictPropertyInitialization": false,
     "baseUrl": "./",

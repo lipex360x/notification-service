@@ -1,6 +1,6 @@
 import { Notification } from '@/modules/notifications/applications/entities/notification';
 
-export class NOtificationViewModel {
+export class NotificationViewModel {
   static toHTTP(notification: Notification) {
     return {
       id: notification.id,
